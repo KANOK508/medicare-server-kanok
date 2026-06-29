@@ -1,0 +1,22 @@
+{
+  "name": "medicare-connect-server",
+  "version": "1.0.0",
+  "description": "MediCare Connect - Hospital Appointment & Healthcare Management System (Server)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.7.0",
+    "npm": "^11.17.0",
+    "stripe": "^15.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
