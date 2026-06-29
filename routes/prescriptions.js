@@ -52,6 +52,8 @@ router.get('/patient', verifyToken, async (req, res) => {
   }
 });
 
+// added 
+
 // GET /api/prescriptions/:id — get single prescription
 router.get('/:id', verifyToken, async (req, res) => {
   try {
